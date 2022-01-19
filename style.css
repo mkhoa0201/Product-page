@@ -8,7 +8,7 @@ body{
 }
 
 .product-detail {
-    width: 88rem;
+    width: 80rem;
     min-height: 60rem;
     background-color: rgb(102, 211, 205);
     display: flex;
@@ -18,7 +18,7 @@ body{
 }
 
 .product-detail-container {
-    background-color: azure;
+    background-color: white;
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0);
 }
 
@@ -28,5 +28,69 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #eee;
+
+}
+
+.product-detail-back {
+    color: #999;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.product-detail-back span {
+    margin-left: 1.5rem;
+}
+
+.product-detail-like {
+    color: #999;
+    font-size: 2rem;
+}
+.product-detail-content {
+    display: flex;
+}
+.product-detail-content > div {
+    padding: 4rem;
+}
+.product-detail-image {
+    width: 40%;
+}
+.product-detail-des {
+    width: 60%;
+    border-left: 1px solid #eee;
+}
+.product-detail-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 0.5rem;
+
+}
+.product-detail-category {
+    text-transform: uppercase;
+    color: gray;
+    display: block;
+    margin-bottom: 2rem;
+}
+.product-detail-price {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    display: block;
+
+}
+.product-detail-desc {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #999;
+    margin-bottom: 2rem;
+}
+.product-detail-button {
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    padding: 1rem 3rem;
+    min-width: 15rem;
+    font-size: 1.4rem;
+
 
 }
