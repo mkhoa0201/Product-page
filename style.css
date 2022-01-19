@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.product-detail {
+    width: 88rem;
+    min-height: 60rem;
+    background-color: rgb(102, 211, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;   
+}
+
+.product-detail-container {
+    background-color: azure;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0);
+}
+
+.product-detail-header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+
+}
